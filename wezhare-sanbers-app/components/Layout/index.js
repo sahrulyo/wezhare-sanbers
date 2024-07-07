@@ -1,6 +1,7 @@
 import Footer from "@/components/footer "
 import Header from "@/components/header "
 import Head from "next/head";
+import Post from "@/pages/post ";
 
 
 export default function Layout ({ children, metaTitle, metaDescription}) {
@@ -18,6 +19,8 @@ export default function Layout ({ children, metaTitle, metaDescription}) {
    </Head>
            
       <Header/>
+      <Post/>
+
       {children}
       <Footer/>
     </div>

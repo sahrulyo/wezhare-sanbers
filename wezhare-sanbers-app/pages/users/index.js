@@ -1,8 +1,10 @@
 import Layout from '@/components/Layout ';
 import React, { useEffect, useState } from 'react';
 import Link from "next/link";
+import 'flowbite';
 
 export default function Users() {
+    
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(true);
 
